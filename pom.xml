@@ -20,15 +20,18 @@
             </activation>
             <properties>
                 <maven.test.skip>false</maven.test.skip>
-                <project.build.testSourceDirectory>src/test/java/ru/mono</project.build.testSourceDirectory>
+                <project.build.testSourceDirectory>src/test/java/ru.mono</project.build.testSourceDirectory>
             </properties>
         </profile>
     </profiles>
+
+
 
     <properties>
         <maven.compiler.source>22</maven.compiler.source>
         <maven.compiler.target>22</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <testSourceDirectory>src/test/java/ru.mono</testSourceDirectory>
     </properties>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
