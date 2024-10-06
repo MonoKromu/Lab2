@@ -8,6 +8,23 @@
     <artifactId>Lab2</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+
+    <profiles>
+        <profile>
+            <id>sahi_UI_testing</id>
+            <activation>
+                <property>
+                    <name>sahiTesting</name>
+                    <value>true</value>
+                </property>
+            </activation>
+            <properties>
+                <maven.test.skip>false</maven.test.skip>
+                <project.build.testSourceDirectory>src/test/java/ru/mono</project.build.testSourceDirectory>
+            </properties>
+        </profile>
+    </profiles>
+
     <properties>
         <maven.compiler.source>22</maven.compiler.source>
         <maven.compiler.target>22</maven.compiler.target>
@@ -28,6 +45,8 @@
             <version>5.8.2</version>
             <scope>test</scope>
         </dependency>
+
+
     </dependencies>
 
 </project>
