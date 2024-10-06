@@ -27,8 +27,6 @@ jobs:
           java-version: '22'
           distribution: 'temurin'
           cache: maven
-      - name: Wrapper
-        run: mvn -N io.takari:maven:wrapper
       - name: Grand authorities to wrapper
         run: chmod +x ./mvnw
       - name: Test with Maven
