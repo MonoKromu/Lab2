@@ -20,7 +20,7 @@
             </activation>
             <properties>
                 <maven.test.skip>false</maven.test.skip>
-                <project.build.testSourceDirectory>src/test/java/ru.mono</project.build.testSourceDirectory>
+                <project.build.testSourceDirectory>src/test/java/ru.mono/MainTest.java</project.build.testSourceDirectory>
             </properties>
         </profile>
     </profiles>
