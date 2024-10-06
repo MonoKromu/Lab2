@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class MainTest {
 
     @Test
-    void isTriangle() {
+    void testIsTriangle() {
         double a = 15;
         double b = 17;
         double c = 18;
