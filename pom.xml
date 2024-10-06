@@ -31,7 +31,7 @@
         <maven.compiler.source>22</maven.compiler.source>
         <maven.compiler.target>22</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <testSourceDirectory>src/test/java/ru.mono</testSourceDirectory>
+        <testSourceDirectory>src/test/java/ru.mono/MainTest.java</testSourceDirectory>
     </properties>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
