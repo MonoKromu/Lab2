@@ -36,7 +36,7 @@ public class Main {
         System.out.println(number+" to the power of "+pow+" is "+powerLoop(number,pow));
 
         System.out.println("\nTask 5");
-        int n = 15;
+        int n = 16;
         System.out.println("Tribonacci numbers up to the "+n+"th: ");
         for(int i=1; i<=n; i++){
             System.out.print(tribonacci(i)+" ");
